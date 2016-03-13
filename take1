@@ -1,64 +1,40 @@
+<!DOCTYPE html>
 <html>
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
     <title>九宫格</title>
     <style type="text/css">
-      #box
-      {
-          margin: auto;
-          width:600px;
-          height:600px ;
-      }
-        #top {  }
-        #content{}
-        .right
+        #box
         {
-            margin-top: 0.5%;
-            border-radius: 25px;
-            width:33%;
-            height:33%;
-            float:right;
-            background:orange;
+            margin: auto;
+            width:400px;
+            height:400px ;
         }
-        .left
+        .box1
         {
-            border-radius: 25px;
-            width:33%;
-            height:33%;
+            margin-top: 1%;
+            margin-left:1%;
+            border-radius:10px;
+            width:30%;
+            height:30%;
             float:left;
             background:orange;
+            display: block;
         }
-        .middle
-        {
-            margin-left:0.7%;
-            margin-top:0.5%;
-            border-radius: 25px;
-            width:33%;
-            height:33%;
-            float:left;
-            background:orange;
-        }
-        #bottom {  }
     </style>
 </head>
 <body>
 <div id="box">
-<div id="top">
-    <div class="right"></div>
-    <div class="left"></div>
-    <div class="middle"></div>
-
-</div>
-<div id="content">
-    <div class="right"></div>
-    <div class="left"></div>
-    <div class="middle"></div>
-</div>
-<div id="bottom">
-    <div class="right"></div>
-    <div class="left"></div>
-    <div class="middle"></div>
-</div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
+    <div class="box1"></div>
 </div>
 </body>
 </html>
